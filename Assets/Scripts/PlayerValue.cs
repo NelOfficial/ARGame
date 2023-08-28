@@ -1,7 +1,7 @@
 using UnityEngine;
 
-[CreateAssetMenu("NewPlayer", "Values/Player")]
-public class PlayerValue : MonoBehaviour
+[CreateAssetMenu(fileName = "NewPlayer", menuName = "Values/Player")]
+public class PlayerValue : ScriptableObject
 {
-
+    public MainMenu.MainMenuPlayer player;
 }
